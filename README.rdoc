@@ -1,0 +1,23 @@
+
+= SixArm Ruby Gem: ApplicationController mock object for testing
+
+Author:: Joel Parker Henderson, joelparkerhenderson@gmail.com
+Copyright:: Copyright (c) 2006-2010 Joel Parker Henderson
+License:: CreativeCommons License, Non-commercial Share Alike
+License:: LGPL, GNU Lesser General Public License
+
+A simple mock object that provides an ApplicationController.
+
+This provides a flash hash, params hash, and session hash.
+
+==Example
+  require 'application_controller_mock'
+  class FoosController < ApplicationController
+    def whatever
+       session[:hello]=world
+    end
+  end
+
+==Example with intialize hash
+  foo = ApplicationConroller.new(:params=>{:a=>:b,:c=>:d)})
+

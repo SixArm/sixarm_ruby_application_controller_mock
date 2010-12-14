@@ -1,289 +1,458 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<head>
-	<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+  <head>
+    <meta name="Content-Type" content="text/html; charset=utf-8" />
+<title>Class: ApplicationController</title>
+<link rel="stylesheet" href="css/style.css" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="css/common.css" type="text/css" media="screen" charset="utf-8" />
 
-	<title>Class: ApplicationController</title>
+<script type="text/javascript" charset="utf-8">
+  relpath = '';
+  if (relpath != '') relpath += '/';
+</script>
+<script type="text/javascript" charset="utf-8" src="js/jquery.js"></script>
+<script type="text/javascript" charset="utf-8" src="js/app.js"></script>
 
-	<link rel="stylesheet" href="./rdoc.css" type="text/css" media="screen" />
+  </head>
+  <body>
+    <script type="text/javascript" charset="utf-8">
+      if (window.top.frames.main) document.body.className = 'frames';
+    </script>
+    
+    <div id="header">
+      <div id="menu">
+  
+    <a href="_index.html">Index (A)</a> &raquo; 
+    
+    
+    <span class="title">ApplicationController</span>
+  
+  
+  <div class="noframes"><span class="title">(</span><a href="." target="_top">no frames</a><span class="title">)</span></div>
+</div>
 
-	<script src="./js/jquery.js" type="text/javascript"
-		charset="utf-8"></script>
-	<script src="./js/thickbox-compressed.js" type="text/javascript"
-		charset="utf-8"></script>
-	<script src="./js/quicksearch.js" type="text/javascript"
-		charset="utf-8"></script>
-	<script src="./js/darkfish.js" type="text/javascript"
-		charset="utf-8"></script>
+      <div id="search">
+  <a id="class_list_link" href="#">Class List</a>
+  <a id="method_list_link" href="#">Method List</a>
+  <a id ="file_list_link" href="#">File List</a>
+</div>
 
-</head>
-<body class="class">
+      <div class="clear"></div>
+    </div>
+    
+    <iframe id="search_frame"></iframe>
+    
+    <div id="content"><h1>Class: ApplicationController
+  
+  
+  
+</h1>
 
-	<div id="metadata">
-		<div id="file-metadata">
-			<div id="file-list-section" class="section">
-				<h3 class="section-header">In Files</h3>
-				<div class="section-body">
-					<ul>
-					
-						<li><a href="./lib/sixarm_ruby_application_controller_mock_rb.html?TB_iframe=true&amp;height=550&amp;width=785"
-							class="thickbox" title="lib/sixarm_ruby_application_controller_mock.rb">lib/sixarm_ruby_application_controller_mock.rb</a></li>
-					
-					</ul>
-				</div>
-			</div>
-
-			
-		</div>
-
-		<div id="class-metadata">
-
-			<!-- Parent Class -->
-			
-			<div id="parent-class-section" class="section">
-				<h3 class="section-header">Parent</h3>
-				
-				<p class="link">ActionController::Base</p>
-				
-			</div>
-			
-
-			<!-- Namespace Contents -->
-			
-
-			<!-- Method Quickref -->
-			
-			<div id="method-list-section" class="section">
-				<h3 class="section-header">Methods</h3>
-				<ul class="link-list">
-					
-					<li><a href="#M000001">::new</a></li>
-					
-					<li><a href="#M000002">#redirect_to</a></li>
-					
-				</ul>
-			</div>
-			
-
-			<!-- Included Modules -->
-			
-		</div>
-
-		<div id="project-metadata">
-			
-			
-			<div id="fileindex-section" class="section project-section">
-				<h3 class="section-header">Files</h3>
-				<ul>
-				
-					<li class="file"><a href="./LICENSE_txt.html">LICENSE.txt</a></li>
-				
-					<li class="file"><a href="./README_rdoc.html">README.rdoc</a></li>
-				
-					<li class="file"><a href="./sixarm_ruby_application_controller_mock_gemspec.html">sixarm_ruby_application_controller_mock.gemspec</a></li>
-				
-					<li class="file"><a href="./sixarm_ruby_application_controller_mock_sha512_txt.html">sixarm_ruby_application_controller_mock.sha512.txt</a></li>
-				
-				</ul>
-			</div>
-			
-
-			<div id="classindex-section" class="section project-section">
-				<h3 class="section-header">Class Index
-					<span class="search-toggle"><img src="./images/find.png"
-						height="16" width="16" alt="[+]"
-						title="show/hide quicksearch" /></span></h3>
-				<form action="#" method="get" accept-charset="utf-8" class="initially-hidden">
-				<fieldset>
-					<legend>Quicksearch</legend>
-					<input type="text" name="quicksearch" value=""
-						class="quicksearch-field" />
-				</fieldset>
-				</form>
-
-				<ul class="link-list">
-				
-					<li><a href="./ApplicationController.html">ApplicationController</a></li>
-				
-					<li><a href="./Testing.html">Testing</a></li>
-				
-				</ul>
-				<div id="no-class-search-results" style="display: none;">No matching classes.</div>
-			</div>
-
-			
-		</div>
-	</div>
-
-	<div id="documentation">
-		<h1 class="class">ApplicationController</h1>
-
-		<div id="description">
-			
-		</div>
-
-		<!-- Constants -->
-		
-
-		<!-- Attributes -->
-		
-		<div id="attribute-method-details" class="method-section section">
-			<h3 class="section-header">Attributes</h3>
-
-			
-			<div id="flash-attribute-method" class="method-detail">
-				<a name="flash"></a>
-				
-				<a name="flash="></a>
-				
-				<div class="method-heading attribute-method-heading">
-					<span class="method-name">flash</span><span
-						class="attribute-access-type">[RW]</span>
-				</div>
-
-				<div class="method-description">
-				
-				<p class="missing-docs">(Not documented)</p>
-				
-				</div>
-			</div>
-			
-			<div id="params-attribute-method" class="method-detail">
-				<a name="params"></a>
-				
-				<a name="params="></a>
-				
-				<div class="method-heading attribute-method-heading">
-					<span class="method-name">params</span><span
-						class="attribute-access-type">[RW]</span>
-				</div>
-
-				<div class="method-description">
-				
-				<p class="missing-docs">(Not documented)</p>
-				
-				</div>
-			</div>
-			
-			<div id="session-attribute-method" class="method-detail">
-				<a name="session"></a>
-				
-				<a name="session="></a>
-				
-				<div class="method-heading attribute-method-heading">
-					<span class="method-name">session</span><span
-						class="attribute-access-type">[RW]</span>
-				</div>
-
-				<div class="method-description">
-				
-				<p class="missing-docs">(Not documented)</p>
-				
-				</div>
-			</div>
-			
-		</div>
-		
-
-		<!-- Methods -->
-		
-		<div id="public-class-method-details" class="method-section section">
-			<h3 class="section-header">Public Class Methods</h3>
-
-		
-			<div id="new-method" class="method-detail ">
-				<a name="M000001"></a>
-
-				<div class="method-heading">
-				
-					<span class="method-name">new</span><span
-						class="method-args">(*ops)</span>
-					<span class="method-click-advice">click to toggle source</span>
-				
-				</div>
-
-				<div class="method-description">
-					
-					<p class="missing-docs">(Not documented)</p>
-					
-
-					
-					<div class="method-source-code"
-						id="new-source">
-<pre>
-    <span class="ruby-comment cmt"># File lib/sixarm_ruby_application_controller_mock.rb, line 36</span>
-36:   <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">initialize</span>(<span class="ruby-operator">*</span><span class="ruby-identifier">ops</span>)
-37:     <span class="ruby-identifier">ops</span>=<span class="ruby-identifier">ops</span>.<span class="ruby-identifier">first</span><span class="ruby-operator">||</span>{}
-38:     <span class="ruby-ivar">@flash</span>=<span class="ruby-constant">Hash</span>.<span class="ruby-identifier">new</span>.<span class="ruby-identifier">merge</span>(<span class="ruby-identifier">ops</span>[<span class="ruby-identifier">:flash</span>]<span class="ruby-operator">||</span>{})
-39:     <span class="ruby-ivar">@params</span>=<span class="ruby-constant">Hash</span>.<span class="ruby-identifier">new</span>.<span class="ruby-identifier">merge</span>(<span class="ruby-identifier">ops</span>[<span class="ruby-identifier">:params</span>]<span class="ruby-operator">||</span>{})
-40:     <span class="ruby-ivar">@session</span>=<span class="ruby-constant">Hash</span>.<span class="ruby-identifier">new</span>.<span class="ruby-identifier">merge</span>(<span class="ruby-identifier">ops</span>[<span class="ruby-identifier">:session</span>]<span class="ruby-operator">||</span>{})
-41:   <span class="ruby-keyword kw">end</span></pre>
-					</div>
-					
-				</div>
-
-				
-			</div>
-
-		
-		</div>
-	
-		<div id="public-instance-method-details" class="method-section section">
-			<h3 class="section-header">Public Instance Methods</h3>
-
-		
-			<div id="redirect-to-method" class="method-detail ">
-				<a name="M000002"></a>
-
-				<div class="method-heading">
-				
-					<span class="method-name">redirect_to</span><span
-						class="method-args">(*a)</span>
-					<span class="method-click-advice">click to toggle source</span>
-				
-				</div>
-
-				<div class="method-description">
-					
-					<p class="missing-docs">(Not documented)</p>
-					
-
-					
-					<div class="method-source-code"
-						id="redirect-to-source">
-<pre>
-    <span class="ruby-comment cmt"># File lib/sixarm_ruby_application_controller_mock.rb, line 43</span>
-43:   <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">redirect_to</span>(<span class="ruby-operator">*</span><span class="ruby-identifier">a</span>)
-44:     <span class="ruby-keyword kw">return</span> <span class="ruby-identifier">a</span>
-45:   <span class="ruby-keyword kw">end</span></pre>
-					</div>
-					
-				</div>
-
-				
-			</div>
-
-		
-		</div>
-	
-
-	</div>
+<dl class="box">
+  
+    <dt class="r1">Inherits:</dt>
+    <dd class="r1">
+      <span class="inheritName">ActionController::Base</span>
+      
+        <ul class="fullTree">
+          <li>Object</li>
+          
+            <li class="next">ActionController::Base</li>
+          
+            <li class="next">ApplicationController</li>
+          
+        </ul>
+        <a href="#" class="inheritanceTree">show all</a>
+      
+      </dd>
+    
+  
+  
+    
+  
+    
+  
+  
+  
+    <dt class="r2 last">Defined in:</dt>
+    <dd class="r2 last">lib/sixarm_ruby_application_controller_mock.rb</dd>
+  
+</dl>
+<div class="clear"></div>
 
 
-	<div id="rdoc-debugging-section-dump" class="debugging-section">
-	
-		<p>Disabled; run with --debug to generate this.</p>
-	
-	</div>
 
-	<div id="validator-badges">
-		<p><small><a href="http://validator.w3.org/check/referer">[Validate]</a></small></p>
-		<p><small>Generated with the <a href="http://deveiate.org/projects/Darkfish-Rdoc/">Darkfish
-			Rdoc Generator</a> 1.1.6</small>.</p>
-	</div>
+  
+  <h2>Instance Attribute Summary <small>(<a href="#" class="summary_toggle">collapse</a>)</small></h2>
+  <ul class="summary">
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#flash-instance_method" title="#flash (instance method)">- (Object) <strong>flash</strong> </a>
+    
 
-</body>
+    
+  </span>
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'><p>
+Returns the value of attribute flash.
+</p>
+</div></span>
+  
+</li>
+
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#params-instance_method" title="#params (instance method)">- (Object) <strong>params</strong> </a>
+    
+
+    
+  </span>
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'><p>
+Returns the value of attribute params.
+</p>
+</div></span>
+  
+</li>
+
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#session-instance_method" title="#session (instance method)">- (Object) <strong>session</strong> </a>
+    
+
+    
+  </span>
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'><p>
+Returns the value of attribute session.
+</p>
+</div></span>
+  
+</li>
+
+    
+  </ul>
+
+
+  
+    <h2>
+      Instance Method Summary
+      <small>(<a href="#" class="summary_toggle">collapse</a>)</small>
+    </h2>
+
+    <ul class="summary">
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#initialize-instance_method" title="#initialize (instance method)">- (ApplicationController) <strong>initialize</strong>(*ops) </a>
+    
+
+    
+  </span>
+  
+    <span class="note title constructor">constructor</span>
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'><p>
+A new instance of ApplicationController.
+</p>
+</div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#redirect_to-instance_method" title="#redirect_to (instance method)">- (Object) <strong>redirect_to</strong>(*a) </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+      
+    </ul>
+  
+
+
+  <div id="constructor_details" class="method_details_list">
+  <h2>Constructor Details</h2>
+  
+    <div class="method_details first">
+  <p class="signature first" id="initialize-instance_method">
+  
+    - (<tt><span class='object_link'><a href="" title="ApplicationController (class)">ApplicationController</a></span></tt>) <strong>initialize</strong>(*ops) 
+  
+
+  
+</p><div class="docstring">
+  <div class="discussion">
+    <p>
+A new instance of ApplicationController
+</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+36
+37
+38
+39
+40
+41</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/sixarm_ruby_application_controller_mock.rb', line 36</span>
+
+<span class='kw'>def</span> <span class='id initialize'>initialize</span><span class='lparen'>(</span><span class='op'>*</span><span class='id ops'>ops</span><span class='rparen'>)</span>
+  <span class='id ops'>ops</span><span class='op'>=</span><span class='id ops'>ops</span><span class='period'>.</span><span class='id first'>first</span><span class='op'>||</span><span class='lbrace'>{</span><span class='rbrace'>}</span>
+  <span class='ivar'>@flash</span><span class='op'>=</span><span class='const'>Hash</span><span class='period'>.</span><span class='id new'>new</span><span class='period'>.</span><span class='id merge'>merge</span><span class='lparen'>(</span><span class='id ops'>ops</span><span class='lbracket'>[</span><span class='symbol'>:flash</span><span class='rbracket'>]</span><span class='op'>||</span><span class='lbrace'>{</span><span class='rbrace'>}</span><span class='rparen'>)</span>
+  <span class='ivar'>@params</span><span class='op'>=</span><span class='const'>Hash</span><span class='period'>.</span><span class='id new'>new</span><span class='period'>.</span><span class='id merge'>merge</span><span class='lparen'>(</span><span class='id ops'>ops</span><span class='lbracket'>[</span><span class='symbol'>:params</span><span class='rbracket'>]</span><span class='op'>||</span><span class='lbrace'>{</span><span class='rbrace'>}</span><span class='rparen'>)</span>
+  <span class='ivar'>@session</span><span class='op'>=</span><span class='const'>Hash</span><span class='period'>.</span><span class='id new'>new</span><span class='period'>.</span><span class='id merge'>merge</span><span class='lparen'>(</span><span class='id ops'>ops</span><span class='lbracket'>[</span><span class='symbol'>:session</span><span class='rbracket'>]</span><span class='op'>||</span><span class='lbrace'>{</span><span class='rbrace'>}</span><span class='rparen'>)</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+  
+</div>
+
+  <div id="instance_attr_details" class="attr_details">
+    <h2>Instance Attribute Details</h2>
+    
+      
+      <span id="flash=-instance_method"></span>
+      <span id="flash-instance_method"></span>
+      <div class="method_details first">
+  <p class="signature first" id="flash-instance_method">
+  
+    - (<tt>Object</tt>) <strong>flash</strong> 
+  
+
+  
+</p><div class="docstring">
+  <div class="discussion">
+    <p>
+Returns the value of attribute flash
+</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+32
+33
+34</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/sixarm_ruby_application_controller_mock.rb', line 32</span>
+
+<span class='kw'>def</span> <span class='id flash'>flash</span>
+  <span class='ivar'>@flash</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      
+      <span id="params=-instance_method"></span>
+      <span id="params-instance_method"></span>
+      <div class="method_details ">
+  <p class="signature " id="params-instance_method">
+  
+    - (<tt>Object</tt>) <strong>params</strong> 
+  
+
+  
+</p><div class="docstring">
+  <div class="discussion">
+    <p>
+Returns the value of attribute params
+</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+33
+34
+35</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/sixarm_ruby_application_controller_mock.rb', line 33</span>
+
+<span class='kw'>def</span> <span class='id params'>params</span>
+  <span class='ivar'>@params</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      
+      <span id="session=-instance_method"></span>
+      <span id="session-instance_method"></span>
+      <div class="method_details ">
+  <p class="signature " id="session-instance_method">
+  
+    - (<tt>Object</tt>) <strong>session</strong> 
+  
+
+  
+</p><div class="docstring">
+  <div class="discussion">
+    <p>
+Returns the value of attribute session
+</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+34
+35
+36</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/sixarm_ruby_application_controller_mock.rb', line 34</span>
+
+<span class='kw'>def</span> <span class='id session'>session</span>
+  <span class='ivar'>@session</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+  </div>
+
+
+  <div id="instance_method_details" class="method_details_list">
+    <h2>Instance Method Details</h2>
+    
+    
+      <div class="method_details first">
+  <p class="signature first" id="redirect_to-instance_method">
+  
+    - (<tt>Object</tt>) <strong>redirect_to</strong>(*a) 
+  
+
+  
+</p><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+43
+44
+45</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/sixarm_ruby_application_controller_mock.rb', line 43</span>
+
+<span class='kw'>def</span> <span class='id redirect_to'>redirect_to</span><span class='lparen'>(</span><span class='op'>*</span><span class='id a'>a</span><span class='rparen'>)</span>
+  <span class='kw'>return</span> <span class='id a'>a</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+  </div>
+
+</div>
+    
+    <div id="footer">
+  Generated on Mon Dec 13 17:51:29 2010 by 
+  <a href="http://yardoc.org" title="Yay! A Ruby Documentation Tool" target="_parent">yard</a>
+  0.6.3 (ruby-1.9.2).
+</div>
+
+  </body>
 </html>
-

@@ -1,12 +1,12 @@
 
-= SixArm Ruby Gem: ApplicationController mock object for testing
+= SixArm Ruby Gem: ApplicationController mock object for testing Rails
 
 Author:: Joel Parker Henderson, joelparkerhenderson@gmail.com
 Copyright:: Copyright (c) 2006-2010 Joel Parker Henderson
 License:: CreativeCommons License, Non-commercial Share Alike
 License:: LGPL, GNU Lesser General Public License
 
-A simple mock object that provides an ApplicationController.
+ApplicationController mock object for testing Rails.
 
 This provides a flash hash, params hash, and session hash.
 

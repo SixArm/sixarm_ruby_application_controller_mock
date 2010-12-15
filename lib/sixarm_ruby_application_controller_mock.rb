@@ -1,11 +1,11 @@
+# -*- encoding: utf-8 -*-
 =begin rdoc
 
-= SixArm Ruby Gem: ApplicationController mock object for testing Rails
+= SixArm Ruby Gem » ApplicationController Mock
 
 Author:: Joel Parker Henderson, joelparkerhenderson@gmail.com
 Copyright:: Copyright (c) 2006-2010 Joel Parker Henderson
-License:: CreativeCommons License, Non-commercial Share Alike
-License:: LGPL, GNU Lesser General Public License
+License:: Your choice of BSD, MIT, LGPL, or CreativeCommons Non-commercial Share Alike
 
 ApplicationController mock object for testing Rails.
 

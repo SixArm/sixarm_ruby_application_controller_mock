@@ -1,5 +1,4 @@
-
-= SixArm Ruby Gem: ApplicationController mock object for testing Rails
+= SixArm.com » Ruby » ApplicationController mock object for testing Rails
 
 Author:: Joel Parker Henderson, joelparkerhenderson@gmail.com
 Copyright:: Copyright (c) 2006-2010 Joel Parker Henderson

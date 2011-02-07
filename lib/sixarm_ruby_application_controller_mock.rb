@@ -1,11 +1,11 @@
-# -*- encoding: utf-8 -*-
+# -*- coding: utf-8 -*-
 =begin rdoc
 
-= SixArm Ruby Gem » ApplicationController Mock
+= SixArm.com » Ruby » ApplicationController mock object for testing Rails
 
 Author:: Joel Parker Henderson, joelparkerhenderson@gmail.com
-Copyright:: Copyright (c) 2006-2010 Joel Parker Henderson
-License:: Your choice of BSD, MIT, LGPL, or CreativeCommons Non-commercial Share Alike
+Copyright:: Copyright (c) 2006-2011 Joel Parker Henderson
+License:: See LICENSE.txt file
 
 ApplicationController mock object for testing Rails.
 
@@ -24,8 +24,7 @@ This provides a flash hash, params hash, and session hash.
 
 =end
 
-
-require 'sixarm_ruby_action_controller_mock'
+require 'action_controller'
 
 class ApplicationController < ActionController::Base
 

@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+
 =begin rdoc
 
 = SixArm.com » Ruby » ApplicationController mock object for testing Rails
@@ -42,5 +43,5 @@ class ApplicationController < ActionController::Base
   def redirect_to(*a)
     return a
   end
-  
+
 end

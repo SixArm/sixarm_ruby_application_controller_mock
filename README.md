@@ -1,7 +1,7 @@
 # SixArm.com » Ruby » <br> ApplicationController mock object for testing Rails
 
-
-* Docs: <http://sixarm.com/sixarm_ruby_application_controller_mock/doc>
+* Doc: <http://sixarm.com/sixarm_ruby_application_controller_mock/doc>
+* Gem: <http://rubygems.org/gems/sixarm_ruby_application_controller_mock>
 * Repo: <http://github.com/sixarm/sixarm_ruby_application_controller_mock>
 * Email: Joel Parker Henderson, <joel@sixarm.com>
 

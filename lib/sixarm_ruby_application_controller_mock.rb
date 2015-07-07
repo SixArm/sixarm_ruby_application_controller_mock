@@ -4,7 +4,7 @@ Please see README
 =end
 
 
-require 'action_controller'
+require "action_controller"
 
 class ApplicationController < ActionController::Base
 

@@ -1,28 +1,7 @@
 {
   "Unit Tests": {
     "coverage": {
-      "/home/sixarm/git/sixarm_ruby_application_controller_mock/lib/sixarm_ruby_application_controller_mock.rb": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
+      "/Users/joel/git/sixarm/sixarm_ruby_application_controller_mock/lib/sixarm_ruby_application_controller_mock.rb": [
         null,
         null,
         null,
@@ -38,19 +17,19 @@
         1,
         null,
         1,
-        5,
-        5,
-        5,
-        5,
+        0,
+        0,
+        0,
+        0,
         null,
         null,
         1,
-        1,
+        0,
         null,
         null,
         null
       ]
     },
-    "timestamp": 1318133386
+    "timestamp": 1436483696
   }
 }

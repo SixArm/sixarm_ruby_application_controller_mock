@@ -1,4 +1,4 @@
-# SixArm.com » Ruby » <br> ApplicationController mock object for testing Rails
+# SixArm.com » Ruby » <br> ApplicationController mock for Rails
 
 [![Code Climate](https://codeclimate.com/github/SixArm/sixarm_ruby_application_controller_mock.png)](https://codeclimate.com/github/SixArm/sixarm_ruby_application_controller_mock)
 [![Build Status](https://travis-ci.org/SixArm/sixarm_ruby_application_controller_mock.png)](https://travis-ci.org/SixArm/sixarm_ruby_application_controller_mock)

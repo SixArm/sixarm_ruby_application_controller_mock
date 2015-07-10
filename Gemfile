@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+gem 'sixarm_ruby_action_controller_mock', '>= 1.0.8', '< 2'
+
 group :test do
   gem 'minitest', '>= 5.7.0', '< 6', require: false
   gem 'rake', '>= 10.4.2', '< 11', require: false

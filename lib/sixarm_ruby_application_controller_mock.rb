@@ -1,8 +1,4 @@
 # -*- coding: utf-8 -*-
-=begin rdoc
-Please see README
-=end
-
 
 require "action_controller"
 

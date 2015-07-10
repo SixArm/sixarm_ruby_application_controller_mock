@@ -33,7 +33,7 @@ Gem::Specification.new do |s|
     "test/sixarm_ruby_application_controller_mock_test.rb"
   ]
 
-  s.add_dependency('sixarm_ruby_action_controller_mock', '>= 1.0.0', '< 2')
+  s.add_dependency('sixarm_ruby_action_controller_mock', '>= 1.0.8', '< 2')
 
   s.add_development_dependency('minitest', '>= 5.7.0', '< 6')
   s.add_development_dependency('rake', '> 10.4.2', '< 11')

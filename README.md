@@ -1,4 +1,7 @@
-# Ruby » <br> ApplicationController mock object for testing Rails
+# SixArm.com » Ruby » <br> ApplicationController mock object for testing Rails
+
+[![Code Climate](https://codeclimate.com/github/SixArm/sixarm_ruby_application_controller_mock.png)](https://codeclimate.com/github/SixArm/sixarm_ruby_application_controller_mock)
+[![Build Status](https://travis-ci.org/SixArm/sixarm_ruby_application_controller_mock.png)](https://travis-ci.org/SixArm/sixarm_ruby_application_controller_mock)
 
 * Doc: <http://sixarm.com/sixarm_ruby_application_controller_mock/doc>
 * Gem: <http://rubygems.org/gems/sixarm_ruby_application_controller_mock>
@@ -25,7 +28,7 @@ Install:
 
 Bundler:
 
-    gem "sixarm_ruby_application_controller_mock", "~>1.2.6"
+    gem "sixarm_ruby_application_controller_mock", ">=1.2.7", "<2"
 
 Require:
 

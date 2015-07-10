@@ -14,7 +14,7 @@
       <img src="./assets/0.10.0/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" style="display:none;">
-      <div class="timestamp">Generated <abbr class="timeago" title="2015-07-09T17:14:56-06:00">2015-07-09T17:14:56-06:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2015-07-09T22:45:00-06:00">2015-07-09T22:45:00-06:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
@@ -53,7 +53,7 @@
       <tr>
         <td class="strong"><a href="#8f0d384bb4f243a91b7c72adf8abd3625eaa784e" class="src_link" title="lib/sixarm_ruby_application_controller_mock.rb">lib/sixarm_ruby_application_controller_mock.rb</a></td>
         <td class="red strong">58.33 %</td>
-        <td>26</td>
+        <td>22</td>
         <td>12</td>
         <td>7</td>
         <td>5</td>
@@ -99,25 +99,25 @@
         <li class="never" data-hits="" data-linenumber="2">
           
           
-          <code class="ruby">=begin rdoc</code>
+          <code class="ruby"></code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="3">
+        <li class="covered" data-hits="1" data-linenumber="3">
+          <span class="hits">1</span>
           
-          
-          <code class="ruby">Please see README</code>
+          <code class="ruby">require &quot;action_controller&quot;</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="4">
           
           
-          <code class="ruby">=end</code>
+          <code class="ruby"></code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="5">
+        <li class="covered" data-hits="1" data-linenumber="5">
+          <span class="hits">1</span>
           
-          
-          <code class="ruby"></code>
+          <code class="ruby">class ApplicationController &lt; ActionController::Base</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="6">
@@ -129,19 +129,19 @@
         <li class="covered" data-hits="1" data-linenumber="7">
           <span class="hits">1</span>
           
-          <code class="ruby">require &quot;action_controller&quot;</code>
+          <code class="ruby">  attr_accessor :flash</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="8">
+        <li class="covered" data-hits="1" data-linenumber="8">
+          <span class="hits">1</span>
           
-          
-          <code class="ruby"></code>
+          <code class="ruby">  attr_accessor :params</code>
         </li>
       
         <li class="covered" data-hits="1" data-linenumber="9">
           <span class="hits">1</span>
           
-          <code class="ruby">class ApplicationController &lt; ActionController::Base</code>
+          <code class="ruby">  attr_accessor :session</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="10">
@@ -153,55 +153,55 @@
         <li class="covered" data-hits="1" data-linenumber="11">
           <span class="hits">1</span>
           
-          <code class="ruby">  attr_accessor :flash</code>
-        </li>
-      
-        <li class="covered" data-hits="1" data-linenumber="12">
-          <span class="hits">1</span>
-          
-          <code class="ruby">  attr_accessor :params</code>
-        </li>
-      
-        <li class="covered" data-hits="1" data-linenumber="13">
-          <span class="hits">1</span>
-          
-          <code class="ruby">  attr_accessor :session</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="14">
-          
-          
-          <code class="ruby"></code>
-        </li>
-      
-        <li class="covered" data-hits="1" data-linenumber="15">
-          <span class="hits">1</span>
-          
           <code class="ruby">  def initialize(*ops)</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="16">
+        <li class="missed" data-hits="0" data-linenumber="12">
           
           
           <code class="ruby">    ops=ops.first||{}</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="17">
+        <li class="missed" data-hits="0" data-linenumber="13">
           
           
           <code class="ruby">    @flash=Hash.new.merge(ops[:flash]||{})</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="18">
+        <li class="missed" data-hits="0" data-linenumber="14">
           
           
           <code class="ruby">    @params=Hash.new.merge(ops[:params]||{})</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="19">
+        <li class="missed" data-hits="0" data-linenumber="15">
           
           
           <code class="ruby">    @session=Hash.new.merge(ops[:session]||{})</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="16">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="17">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="18">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  def redirect_to(*a)</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="19">
+          
+          
+          <code class="ruby">    return a</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="20">
@@ -216,31 +216,7 @@
           <code class="ruby"></code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="22">
-          <span class="hits">1</span>
-          
-          <code class="ruby">  def redirect_to(*a)</code>
-        </li>
-      
-        <li class="missed" data-hits="0" data-linenumber="23">
-          
-          
-          <code class="ruby">    return a</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="24">
-          
-          
-          <code class="ruby">  end</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="25">
-          
-          
-          <code class="ruby"></code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="26">
+        <li class="never" data-hits="" data-linenumber="22">
           
           
           <code class="ruby">end</code>

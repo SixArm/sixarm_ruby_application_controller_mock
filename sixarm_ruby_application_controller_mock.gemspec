@@ -20,13 +20,7 @@ Gem::Specification.new do |s|
   s.has_rdoc       = true
 
   s.files = [
-    ".gemtest",
-    "CHANGES.md",
-    "CONTRIBUTING.md",
-    "LICENSE.md",
     "Rakefile",
-    "README.md",
-    "VERSION",
   ]
 
   s.test_files = [
@@ -39,5 +33,6 @@ Gem::Specification.new do |s|
   s.add_development_dependency('rake', '> 10.4.2', '< 11')
   s.add_development_dependency('simplecov', '>= 0.10.0', '< 2')
   s.add_development_dependency('coveralls', '>= 0.8.2', '< 2')
+  s.add_development_dependency('actionpack', '> 2', '< 5')
 
 end

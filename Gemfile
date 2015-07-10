@@ -7,4 +7,5 @@ group :test do
   gem 'rake', '>= 10.4.2', '< 11', require: false
   gem 'simplecov', '>= 0.10.0', '< 1', require: false
   gem 'coveralls', '>= 0.8.2', '< 1', require: false
+  gem 'actionpack', '>= 2', '< 5', require: false
 end

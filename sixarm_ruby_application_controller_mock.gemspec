@@ -3,7 +3,7 @@
 Gem::Specification.new do |s|
 
   s.name           = "sixarm_ruby_application_controller_mock"
-  s.summary        = "SixArm.com » Ruby » ApplicationContoller mock"
+  s.summary        = "SixArm.com → Ruby → ApplicationContoller mock"
   s.description    = "ApplicationContoller mock object for testing Ruby On Rails"
   s.version        = "1.2.7"
 

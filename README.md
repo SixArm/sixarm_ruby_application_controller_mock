@@ -2,7 +2,7 @@
 
 <!--header-open-->
 
-[![Code Climate Maintainability](https://api.codeclimate.com/v1/badges/$id/maintainability)](https://codeclimate.com/github/SixArm/$dir/maintainability)
+[![Code Climate Maintainability](https://api.codeclimate.com/v1/badges/d32fc8a9f742fed7e2d6/maintainability)](https://codeclimate.com/github/SixArm/sixarm_ruby_application_controller_mock/maintainability)
 [![Build Status](https://travis-ci.org/SixArm/sixarm_ruby_application_controller_mock.png)](https://travis-ci.org/SixArm/sixarm_ruby_application_controller_mock)
 
 * Git: <https://github.com/sixarm/sixarm_ruby_application_controller_mock>

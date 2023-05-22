@@ -69,7 +69,7 @@ PLATFORMS
 DEPENDENCIES
   actionpack (> 2, < 5)
   minitest (>= 5.11.1, < 6)
-  rake (>= 12.3.0, < 13)
+  rake (>= 12.3.3, < 13)
   simplecov (>= 0.14.1, < 2)
   sixarm_ruby_application_controller_mock!
   sixarm_ruby_minitest_extensions (>= 1.0.8, < 2)

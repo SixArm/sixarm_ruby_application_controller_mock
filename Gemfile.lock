@@ -1,0 +1,78 @@
+PATH
+  remote: .
+  specs:
+    sixarm_ruby_application_controller_mock (1.2.7)
+      sixarm_ruby_action_controller_mock (>= 1.0.8, < 2)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    actionpack (4.2.11.3)
+      actionview (= 4.2.11.3)
+      activesupport (= 4.2.11.3)
+      rack (~> 1.6)
+      rack-test (~> 0.6.2)
+      rails-dom-testing (~> 1.0, >= 1.0.5)
+      rails-html-sanitizer (~> 1.0, >= 1.0.2)
+    actionview (4.2.11.3)
+      activesupport (= 4.2.11.3)
+      builder (~> 3.1)
+      erubis (~> 2.7.0)
+      rails-dom-testing (~> 1.0, >= 1.0.5)
+      rails-html-sanitizer (~> 1.0, >= 1.0.3)
+    activesupport (4.2.11.3)
+      i18n (~> 0.7)
+      minitest (~> 5.1)
+      thread_safe (~> 0.3, >= 0.3.4)
+      tzinfo (~> 1.1)
+    builder (3.2.4)
+    concurrent-ruby (1.2.2)
+    crass (1.0.6)
+    docile (1.4.0)
+    erubis (2.7.0)
+    i18n (0.9.5)
+      concurrent-ruby (~> 1.0)
+    loofah (2.21.3)
+      crass (~> 1.0.2)
+      nokogiri (>= 1.12.0)
+    minitest (5.18.0)
+    nokogiri (1.15.1-arm64-darwin)
+      racc (~> 1.4)
+    racc (1.6.2)
+    rack (1.6.13)
+    rack-test (0.6.3)
+      rack (>= 1.0)
+    rails-deprecated_sanitizer (1.0.4)
+      activesupport (>= 4.2.0.alpha)
+    rails-dom-testing (1.0.9)
+      activesupport (>= 4.2.0, < 5.0)
+      nokogiri (~> 1.6)
+      rails-deprecated_sanitizer (>= 1.0.1)
+    rails-html-sanitizer (1.5.0)
+      loofah (~> 2.19, >= 2.19.1)
+    rake (12.3.3)
+    simplecov (0.22.0)
+      docile (~> 1.1)
+      simplecov-html (~> 0.11)
+      simplecov_json_formatter (~> 0.1)
+    simplecov-html (0.12.3)
+    simplecov_json_formatter (0.1.4)
+    sixarm_ruby_action_controller_mock (1.0.8)
+    sixarm_ruby_minitest_extensions (1.1.1)
+    thread_safe (0.3.6)
+    tzinfo (1.2.11)
+      thread_safe (~> 0.1)
+
+PLATFORMS
+  arm64-darwin-22
+
+DEPENDENCIES
+  actionpack (> 2, < 5)
+  minitest (>= 5.11.1, < 6)
+  rake (>= 12.3.0, < 13)
+  simplecov (>= 0.14.1, < 2)
+  sixarm_ruby_application_controller_mock!
+  sixarm_ruby_minitest_extensions (>= 1.0.8, < 2)
+
+BUNDLED WITH
+   2.3.26
